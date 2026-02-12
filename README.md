@@ -7,7 +7,7 @@ A Python-based utility to fetch, decode, and convert Malaysia's **Prasarana (Rap
 This project interacts with the **Official Open API of Malaysia (data.gov.my)**. It specifically targets the GTFS-Realtime feed for Prasarana, which provides live updates on vehicle positions across the RapidKL bus and rail network.
 
 ### Data Source
-- **API Endpoint:** `https://api.data.gov.my/gtfs-realtime/vehicle-position/prasarana`
+- **API Endpoint:** `https://api.data.gov.my/gtfs-realtime/vehicle-position/prasarana?category=rapid-bus-kl`
 - **Agency:** Prasarana Malaysia Berhad
 - **Format:** Protocol Buffers (.proto)
 - **Update Frequency:** Every 30 seconds
